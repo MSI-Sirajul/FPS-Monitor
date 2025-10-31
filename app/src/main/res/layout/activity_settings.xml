@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="?android:attr/windowBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPS Monitor Settings"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FPS:"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <CheckBox
+            android:id="@+id/checkbox_fps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM:"
+            android:textSize="16sp"
+            android:layout_marginStart="30dp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay Size:"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <SeekBar
+        android:id="@+id/seekbar_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30"
+        android:progress="14"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:id="@+id/text_size_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14"
+        android:textColor="?android:attr/textColorPrimary"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay Opacity:"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <SeekBar
+        android:id="@+id/seekbar_opacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="80"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:id="@+id/text_opacity_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="80%"
+        android:textColor="?android:attr/textColorPrimary" />
+
+</LinearLayout>

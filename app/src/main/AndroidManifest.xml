@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.view.fps">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BIND_QUICK_SETTINGS_TILE" />
+
+    <application
+        android:allowBackup="false"
+        android:label="FPS"
+        android:theme="@android:style/Theme.DeviceDefault.Light"
+        android:icon="@mipmap/fps"
+        android:visibleToInstantApps="false"
+        android:stopWithTask="false">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault.Light"
+            android:stopWithTask="false" />
+
+        <service
+            android:name=".MainActivity$FPSForegroundService"
+            android:foregroundServiceType="mediaProjection"
+            android:stopWithTask="false"
+            android:exported="false" />
+
+        <service
+            android:name=".FpsTileService"
+            android:label="FPS Monitor"
+            android:icon="@mipmap/tile"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>
