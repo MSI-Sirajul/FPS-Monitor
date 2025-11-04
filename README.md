@@ -6,7 +6,10 @@ A lightweight Android application to monitor real-time FPS and RAM usage with cu
 </p>
 
 ![Image](https://raw.githubusercontent.com/MSI-Sirajul/FPS-Monitor/refs/heads/main/build-upload/20250717_000824.png)
+
 ---
+
+
 
 <h2 align="center">Features</h2>
 
