@@ -4,12 +4,29 @@
 <p align="center">
 A lightweight Android application to monitor real-time FPS and RAM usage with customizable floating overlay.
 </p>
-
-![Image](https://raw.githubusercontent.com/MSI-Sirajul/FPS-Monitor/refs/heads/main/build-upload/20250717_000824.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/MSI-Sirajul/FPS-Monitor/refs/heads/main/build-upload/20250717_000824.png" alt="logo" width="50%" height="auto"></div>
 
 ---
 
+<div align="center">
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="https://github.com/MSI-Sirajul/FPS-Monitor/releases">
+    <img src="https://img.shields.io/github/v/release/MSI-Sirajul/FPS-Monitor.svg?style=flat-square" alt="Latest Release">
+  </a><br>
+  <a href="https://github.com/MSI-Sirajul/FPS-Monitor/releases/latest">
+    <img src="https://img.shields.io/github/downloads/MSI-Sirajul/FPS-Monitor/latest/total.svg?style=flat-square" alt="Total Downloads">
+  </a><br>
+  <a href="https://github.com/MSI-Sirajul/FPS-Monitor/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/MSI-Sirajul/FPS-Monitor.svg?style=flat-square" alt="License">
+  </a><br>
+  <a href="https://github.com/MSI-Sirajul/FPS-Monitor">
+    <img src="https://img.shields.io/github/repo-size/MSI-Sirajul/FPS-Monitor.svg?style=flat-square" alt="Repo Size">
+  </a>
+</div>
 
+</div>
+---
 
 <h2 align="center">Features</h2>
 
