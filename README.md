@@ -26,6 +26,7 @@ A lightweight Android application to monitor real-time FPS and RAM usage with cu
 </div>
 
 </div>
+
 ---
 
 <h2 align="center">Features</h2>
